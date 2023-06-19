@@ -10,3 +10,10 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.collapse{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    text-align: end;
+    color: white;
+}

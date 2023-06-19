@@ -7,15 +7,16 @@ export function LandingPage(){
     return(
         //React Fragment<> and </>
         <>
-            <NavBar/>
-            <Jumbotron/>
-            <CardList/>
+            <NavBar title={"Start Boostrap"}/>
+             <Jumbotron/>
+            {/*<CardList/>
                 <Card></Card>
                 <Card></Card>
                 <Card></Card>
                 <Card></Card>
-            <Footer></Footer>
+            <Footer></Footer> */}
 
         </>
     )
 }
+
