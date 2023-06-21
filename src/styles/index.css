@@ -15,7 +15,7 @@
     justify-content: right;
     align-items: end;
     text-align:end;
-    color: white;
+    
 }
 
 .Jumbotron{
@@ -24,16 +24,23 @@
     width: 70%;
     margin: auto;
 }
-.CarrouselCard{
-    border: 1px;
-    border-color: red;
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .Card{
     border-radius: 10px;
-    border: 1px solid color(srgb red green blue);
-    margin: auto;
-    padding: 15px;
+    border: 1px solid #EAECEF;
+    /*margin: auto;*/
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.card-img-top{
+    border: none;
+}
+ 
+.footer{
+    background-color:#6C757D;
+    /*color: white;*/
+    width: 100%;
 }
