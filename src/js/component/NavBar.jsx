@@ -4,7 +4,6 @@ import React from "react"; //Main React.js library
 export const NavBar = ({ title, navLabel1, navLabel2, navLabel3, navLabel4 }) => {
   return (
 
-    <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light d-flex">
         <div className="container-fluid justify-between">
           <div className="title align-co">
@@ -16,17 +15,17 @@ export const NavBar = ({ title, navLabel1, navLabel2, navLabel3, navLabel4 }) =>
 
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup" >
             <div className="navbar-nav" >
-              <a className="nav-link active" aria-current="page" href="#">Home</a>
-              <a className="nav-link" href="#">About</a>
-              <a className="nav-link" href="#">Services</a>
-              <a className="nav-link" href="#">Contact</a>
+              <a className="nav-link active" aria-current="page" href="#">{navLabel1}</a>
+              <a className="nav-link" href="#">{navLabel2}</a>
+              <a className="nav-link" href="#">{navLabel3}</a>
+              <a className="nav-link" href="#">{navLabel4}</a>
             </div>
           </div>
 
         </div>
       </nav>
 
-    </div>
+   // </div>
   );
 
 }

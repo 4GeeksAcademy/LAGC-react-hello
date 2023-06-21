@@ -14,6 +14,26 @@
     display: flex;
     justify-content: right;
     align-items: end;
-    text-align: end;
+    text-align:end;
     color: white;
+}
+
+.Jumbotron{
+    background-color: #EAECEF;
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+}
+.CarrouselCard{
+    border: 1px;
+    border-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Card{
+    border-radius: 10px;
+    border: 1px solid color(srgb red green blue);
+    margin: auto;
+    padding: 15px;
 }
